@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Ryo Soikutsu"
+category = "crypto"
+description = "The intern got bored, and created a guessing game for the rest of the team to solve. So far, no one has solved all 160 challenges. "
+difficulty = "easy"
+name = "Cool Math Games"
+folder_name = "Cool Math Games"
+files = ["dist/server.py", "dist/startup.sh"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{wH0_kN0w5_8a5H_R4nD0m_w4sn7_s0_rAnD0m_4ft3r_4ll}"
+
+[[challenge.services]]
+name = "server"
+path = "service/server"
+type = "internal"

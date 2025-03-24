@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Daksh"
+category = "osint"
+description = "A random user has left breadcrumbs scattered across the internet. Follow the trail from one platform to another, uncovering hidden clues. Start with their username, piece together their online puzzle, and rush your way to victory. \n\nI found his notebook, attached is the first page. \n\nNote: Target reuses his credentials everywhere"
+difficulty = "medium"
+name = "Pieces in Play"
+folder_name = "Pieces in Play"
+files = ["dist/osint.png"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN{P@wn5_@re_1ike_k@rma__5t@rt_sma1l_@nd_bui1d_up}"
+
+[[challenge.hints]]
+cost = 50
+content = "Use tools like `sherlock` to find social media accounts. "
+
+[[challenge.hints]]
+cost = 50
+content = "Analyze the first account carefully to find clues to the second "

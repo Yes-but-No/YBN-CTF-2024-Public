@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "The future of Post Quantum Cryptography..."
+difficulty = "easy"
+name = "BB84"
+folder_name = "BB84"
+files = ["dist/chal.py", "dist/output.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{Qu4ntum_Bb84_1s_3xpens1ve_4_ev3ry0ne_t0_u5e}"

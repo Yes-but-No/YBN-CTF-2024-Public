@@ -1,0 +1,8 @@
+Flag:
+1. mole followed by target name separated by _ all uppercase
+2. Wrap with YBN24{}
+
+Mole: Yu Yang
+Target: Logan Svensen
+
+YBN24{LOGAN_SVENSEN_YU_YANG}

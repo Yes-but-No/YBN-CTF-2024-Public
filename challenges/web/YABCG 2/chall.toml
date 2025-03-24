@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "web"
+description = "I heard someone managed to do some funny things in their card and so I fixed it in v2!\n\nAlso now for \"auditing\" purposes, I will be logging a particular field so I can see what you're up to...\n\nAnyways feel free to use YABCG v2!"
+difficulty = "medium"
+name = "YABCG 2"
+folder_name = "YABCG 2"
+
+[challenge.extras]
+finals = false
+tags = "RCE Possible"
+
+[[challenge.flags]]
+flag = "YBN{l0gg3rs-c4ugh+_l0gg1ng_acfbd964a73}"
+
+[[challenge.services]]
+name = "yabcg2"
+path = "service/yabcg2"
+type = "internal"

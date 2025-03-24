@@ -1,0 +1,1 @@
+The compiled python file has some of its opcodes replaced by invalid ones. Using logic and reasoning (I know its gonna be a bit guessy but not too bad) it should be possible to derive enough opcodes to get the key and decrypt the flag.

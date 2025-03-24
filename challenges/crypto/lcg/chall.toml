@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Warri"
+category = "crypto"
+description = "I just learnt about Linear Congruential Generators today! Made a toy implementation, hopefully it's good enough!"
+difficulty = "medium"
+name = "lcg"
+folder_name = "lcg"
+files = ["dist/chall.py"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{b3_c4r3fu1_0f_y0ur_par4m_ch0ic3s...}"
+
+[[challenge.flags]]
+flag = "YBN24{b7_c4r3fu9_0f_y0ub_par4m_Ch0ic3s.n.}"

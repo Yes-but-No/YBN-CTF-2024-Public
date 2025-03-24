@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "forensics"
+description = "If you're stuck on this chall try looking at paintingsÂ ofÂ MonaÂ Lisa"
+difficulty = "medium"
+name = "Pit Blanes"
+folder_name = "Pit Blanes"
+files = ["dist/chall.wav"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{It5_4N_8_B1T_pl4N3!!_ca9813ac}"

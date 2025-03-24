@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "misc"
+description = "Alright, since you're so eager to exploit my game, I'll secure it better now. You won't be able to exploit it now >:)"
+difficulty = "hard"
+name = "Shroom Server 2"
+folder_name = "Shroom Server 2"
+files = ["dist/shroom-server-2.zip"]
+
+[challenge.extras]
+finals = true
+tags = "RCE Possible"
+
+[[challenge.flags]]
+flag = "YBN24{!ns3R7_pUN_@bouT_5HrO0m$_h3re_4f476ef5d4e877125bba078c82c4cb61}"
+
+[[challenge.services]]
+name = "shroom-server-2"
+path = "service/shroom-server-2"
+type = "internal"

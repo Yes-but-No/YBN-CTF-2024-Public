@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Daksh"
+category = "misc"
+description = "Find me in the discord server for YBN CTF. \n\nHappy hunting :D"
+difficulty = "easy"
+name = "Help me find the flag"
+folder_name = "Help me find the flag"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{7h@nk5_f0r_j01n1n9_0ur_d15c0rd}"

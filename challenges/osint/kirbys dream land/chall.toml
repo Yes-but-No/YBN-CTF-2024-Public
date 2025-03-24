@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "Hey there! I'm Kirby you can find me almost anywhere but unfortunately I did not spend $11.44 for the blue tick. I'm grateful to my sound actor and hence my name includes a part of hers. I don't really remember where I put the flag but it must be somewhere! "
+difficulty = "medium"
+name = "kirby's dream land"
+folder_name = "kirbys dream land"
+files = ["dist/New Text Document.txt"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{K1rBY5_4M4Z1NG_4DV3N7Ur35}"

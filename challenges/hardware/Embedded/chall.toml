@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JacTBB"
+category = "hardware"
+description = "The flag is stored in the ESP32 somehow. Read it.\nTake one from the front. first come first serve(there are 9)"
+difficulty = "hard"
+name = "Embedded"
+folder_name = "Embedded"
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{93920328085020485}"
+case_insensitive = true
+
+[[challenge.hints]]
+cost = 250
+content = "EEPROM"

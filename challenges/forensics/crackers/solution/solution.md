@@ -1,0 +1,3 @@
+First things first, we need to crack the password, so by using office2john.py, we can crack the hash, to find that the password is dungeon.  
+Once we open the excel file, we can see that there is a large looking database and a bunch of sheets. All of those are red herrings, the flag is at the last cell of excel, where if you use the =CONCAT formual to concatenate the values, you obtain the flag,
+`YBN24{Y0u_cr4ck3d_m3}`

@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "pwn"
+description = "I've always wanted to be a train conductor! However, it's kinda difficult... Help me travel to the different train stations and complete my shift!"
+difficulty = "easy"
+name = "train conductor"
+folder_name = "train conductor"
+files = ["dist/train"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{4LL_0n-b0a4d_th4_0r4nge_Expr3s5!}"
+
+[[challenge.services]]
+name = "train_conductor"
+path = "service/train_conductor"
+type = "internal"

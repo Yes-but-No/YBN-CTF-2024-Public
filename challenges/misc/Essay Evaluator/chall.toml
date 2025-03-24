@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "jiajie"
+category = "misc"
+description = "I wrote an automated essay grader in python. Luckily, python already has a built-in evaluation function so it was really easy!"
+difficulty = "medium"
+name = "Essay Evaluator"
+folder_name = "Essay Evaluator"
+files = ["dist/main.py"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{fuz21n9_15_C00l}"
+
+[[challenge.services]]
+name = "essayevaluator"
+path = "service/essayEvaluator"
+type = "internal"

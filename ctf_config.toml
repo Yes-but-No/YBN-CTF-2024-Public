@@ -1,0 +1,26 @@
+# CTF Repository Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# This is the file to specify to ctf-architect when creating a new challenge.
+
+version = "0.1"
+
+[config]
+categories = ["crypto", "forensics", "hardware", "misc", "osint", "pwn", "reversing", "web"]
+difficulties = ["easy", "medium", "hard", "impossible"]
+flag_format = "YBN(?:24)?{.*?}"
+starting_port = 8000
+name = "YBN CTF 2024"
+
+[[config.extras]]
+name = "tags"
+description = "Extra challenge metadata tags"
+prompt = "Specify tags for the challenge"
+required = false
+type = "string"
+
+[[config.extras]]
+name = "finals"
+description = "Is the challenge for finals?"
+prompt = "Is the challenge for finals?"
+required = true
+type = "boolean"

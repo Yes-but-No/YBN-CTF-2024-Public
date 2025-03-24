@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "crypto"
+description = "hey!! Here's your flag supported by system 85: <~3DE^u0JR<M,#g<H/oWa1@U_J^0hj$6:-Cd&:1>t52#~>"
+difficulty = "easy"
+name = "Cipher? What's that?"
+folder_name = "Cipher Whats that"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{B451C_C1PH3r_5K1115}"
+
+[[challenge.hints]]
+cost = 50
+content = "85...85...13..."

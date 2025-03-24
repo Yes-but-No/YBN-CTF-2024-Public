@@ -1,0 +1,1 @@
+flag = b"YBN24{m35sy_g3m_p1ck1n9_4Dv3n7Ur3_8A293beo7I}"

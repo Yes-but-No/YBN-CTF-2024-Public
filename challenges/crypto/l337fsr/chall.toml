@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Warri"
+category = "crypto"
+description = "13371337133713371337133713371337"
+difficulty = "hard"
+name = "l337fsr"
+folder_name = "l337fsr"
+files = ["dist/chall.py"]
+
+[challenge.extras]
+finals = false
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{i_luv_m4tr1c35_th3y_sp33d_th1ng5_up_s0_much}"

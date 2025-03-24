@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "pwn"
+description = "What can this even achieve anyways..."
+difficulty = "medium"
+name = "Useless"
+folder_name = "Useless"
+files = ["dist/chall", "dist/chall.asm"]
+
+[challenge.extras]
+finals = false
+tags = "ssm"
+
+[[challenge.flags]]
+flag = "YBN24{4SM_1SN7_50_5C4RY}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "useless"
+path = "service/Useless"
+type = "internal"

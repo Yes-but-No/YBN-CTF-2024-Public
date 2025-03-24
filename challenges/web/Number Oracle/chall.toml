@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "web"
+description = "Can you guess 100 numbers in a row correctly?"
+difficulty = "easy"
+name = "Number Oracle"
+folder_name = "Number Oracle"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{D0nT_pUT_$3CR3Ts_IN_53S$1ON_coOk1Es_a2650f92c6893e5bb6437}"
+
+[[challenge.services]]
+name = "number-oracle"
+path = "service/number-oracle"
+type = "internal"

@@ -1,0 +1,13 @@
+1. open the .wav file in a morse code decoder to get the password "3D9E82E85A64"
+2. open the .wav file in xiao steganography and extract jpeg with password 
+3. open the jpeg in https://georgeom.net/StegOnline/ 
+4. browse through the bit planes to obtain the following values for Red, Green and Blue:
+
+Red: 4, 5, 6, 7
+Green: 0, 1, 2, 3, 4
+Blue: 4, 5, 6, 7
+
+5. click extract data
+6. tick the numbers of red green and blue respectively based on the values obtained from step 4
+7. click go
+

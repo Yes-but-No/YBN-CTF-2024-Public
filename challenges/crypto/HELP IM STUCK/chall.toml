@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "crypto"
+description = "OH MY! I'm stuck in this room with this slip of paper with random numbers on it. There must be something I can do with it to escape.\nFlag Format: YBN24{...}"
+difficulty = "easy"
+name = "HELP!! I'M STUCK!"
+folder_name = "HELP IM STUCK"
+files = ["dist/mystery note.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{K0R34N_15_FUN}"

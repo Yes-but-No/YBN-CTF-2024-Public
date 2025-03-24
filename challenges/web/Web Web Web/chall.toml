@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "wHo"
+category = "web"
+description = "Guys check out this cool website I made to learn CSS!\n\n(Full disclaimer: I stole the design off codepen)"
+difficulty = "easy"
+name = "Web Web Web"
+folder_name = "Web Web Web"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{th1s_1s_4_c4ll_f0r_h3lp}"
+
+[[challenge.services]]
+name = "web-web-web"
+path = "service/web-web-web"
+type = "internal"

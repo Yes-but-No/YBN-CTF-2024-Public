@@ -1,0 +1,4 @@
+# Number to ParseInt conversion vulnerability
+From the code, the nuked coordinates are being converted via the Number() function, then once again via the parseInt() function. When the coordinates are some very high number, Number() evalues it to something like 1e+21. However, when parseInt takes in this Number() value, it will simply look at the first digit (since e+21 isnt a valid integer). Thus it will return 1. 
+
+Since the range checks are present, instead of a high number, we can select a low number. 9e-20 is a valid number in the range, but when parseInt() is called, it will return 9. This is a valid coordinate, and will pass the range checks, and is also a different coordinate that baba's.

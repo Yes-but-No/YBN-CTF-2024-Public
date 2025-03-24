@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary Threat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class = "w-full flex flex-col justify-center align-middle items-center h-screen">
+    {% if flag %}
+    <h1 class="text-[#4c61ff] text-5xl font-bold w-1/2 text-center my-4">
+        Successfully Nuked. Heres the flag
+    </h1>
+    <h2>
+        {{flag}}
+    </h2>
+    {% else %}
+    <h1 class="text-[#4c61ff] text-5xl font-bold w-1/2 text-center my-4">
+        Only Admins can Nuke.
+    </h1>
+    {% endif %}
+
+</body>
+</html>

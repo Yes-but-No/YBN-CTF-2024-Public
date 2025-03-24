@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "pwn"
+description = "The byte eater is sooooo picky!!! Can you satiate it's hunger?"
+difficulty = "easy"
+name = "Too Much Buffer"
+folder_name = "Too Much Buffer"
+files = ["dist/buffer_monster"]
+
+[challenge.extras]
+finals = false
+tags = "RCE Possble"
+
+[[challenge.flags]]
+flag = "YBN24{s1mple_4nd_3asy_r3t2W1n_r1ght_r1ght_right??}"
+
+[[challenge.services]]
+name = "too_much_buffer"
+path = "service/too_much_buffer"
+type = "internal"

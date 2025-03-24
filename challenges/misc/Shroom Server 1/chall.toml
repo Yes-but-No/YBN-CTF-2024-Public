@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "misc"
+description = "I made a fun little game for you to get the flag! Just keep farming them shrooms!"
+difficulty = "easy"
+name = "Shroom Server 1"
+folder_name = "Shroom Server 1"
+files = ["dist/shroom-server-1.zip"]
+
+[challenge.extras]
+finals = false
+tags = "RCE Possible"
+
+[[challenge.flags]]
+flag = "YBN24{pIckLES_for_sHROoms_hUH_f7131de9e575bbd77ad599ea9cb7f598}"
+
+[[challenge.services]]
+name = "shroom-server-1"
+path = "service/shroom-server-1"
+type = "internal"

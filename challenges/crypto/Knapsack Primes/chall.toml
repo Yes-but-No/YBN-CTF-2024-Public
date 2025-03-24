@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "I was wondering why knapsacks used only addition but not multiplication of primes so I created one for you :o have fun!"
+difficulty = "hard"
+name = "Knapsack Primes"
+folder_name = "Knapsack Primes"
+files = ["dist/knapsack primes chall.py", "dist/knapsack primes output.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{kn4p5@ck_Pr1m3s_GCD_At+4cK!!}"

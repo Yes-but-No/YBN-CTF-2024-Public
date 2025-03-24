@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "Seems like our intern is travelling again this year! Do you know where she is?\nFlag Format: YBN24{station name} (spaces replaced by _ and in lowercase)\nPS: You might want to store the flag somewhere first."
+difficulty = "easy"
+name = "Travelling Intern 1"
+folder_name = "Travelling Intern 1"
+files = ["dist/file.jpg"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{amanohashidate_station}"

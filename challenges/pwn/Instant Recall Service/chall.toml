@@ -1,0 +1,49 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "pwn"
+description = "This service has been professionally certified to not have dementia "
+difficulty = "medium"
+name = "Instant Recall Service"
+folder_name = "Instant Recall Service"
+files = ["dist/chall"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{FMT5TR_ArB1Tary_Wr1t3#_d24317f5}"
+
+[[challenge.hints]]
+cost = 0
+content = "Think harder "
+
+[[challenge.hints]]
+cost = 0
+content = "You're not thinking hard enough"
+
+[[challenge.hints]]
+cost = 0
+content = "Are you sure you thought about it yet"
+
+[[challenge.hints]]
+cost = 0
+content = "THINK THINK THINK!!!"
+
+[[challenge.hints]]
+cost = 0
+content = "Ok, try using 1% of the brain this time"
+
+[[challenge.hints]]
+cost = 0
+content = "This has been a waste of a full minute. Thanks for taking your time to read this too!"
+
+[[challenge.services]]
+name = "chall"
+path = "service/chall"
+type = "internal"

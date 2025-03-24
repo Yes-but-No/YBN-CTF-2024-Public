@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "forensics"
+description = "Look really closely...\nFlag Format: YBN24{...}"
+difficulty = "medium"
+name = "secret secret infomation"
+folder_name = "secret secret infomation"
+files = ["dist/secret secret information.PNG"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{t00k_y0u_l0Ng_3n0UgH}"
+case_insensitive = true
+
+[[challenge.hints]]
+cost = 50
+content = "Maybe try selecting the text from images?"

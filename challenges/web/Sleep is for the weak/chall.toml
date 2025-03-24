@@ -1,0 +1,31 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "The only way to complete the creation of 5 ctf challenges whilst also taking A levels is to not sleep.\n~ Master Baba"
+difficulty = "impossible"
+name = "Sleep is for the weak"
+folder_name = "Sleep is for the weak"
+files = ["dist/sleep is bad.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{pHp_Is_sO_fUN_I'm_S0rRy}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "admin-stealth"
+path = "service/admin-stealth"
+type = "internal"
+
+[[challenge.services]]
+name = "website"
+path = "service/Website"
+type = "internal"

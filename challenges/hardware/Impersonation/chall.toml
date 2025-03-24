@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "hardware"
+description = "Can you gain access to the flag, which is only granted by a special card?\n\n\n* ask admins for hardware needed for this challenge\n* Nexus 3\n\n\nunzip the zip file to ~/Arduino/libraries\n"
+difficulty = "medium"
+name = "Impersonation"
+folder_name = "Impersonation"
+files = ["dist/Archive_1.zip"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{NfCR3Pl4Y}"
+case_insensitive = true

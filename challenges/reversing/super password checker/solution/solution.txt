@@ -1,0 +1,3 @@
+1. Unpack the file with upx
+2. Reverse it
+3. flag is in the binary (Strings), but flipped.

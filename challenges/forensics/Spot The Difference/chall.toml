@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "forensics"
+description = "Can you fix this image for me? "
+difficulty = "medium"
+name = "Spot The Difference"
+folder_name = "Spot The Difference"
+files = ["dist/chall.jpg"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{W3LL_H1DD3N_d5395d0}"

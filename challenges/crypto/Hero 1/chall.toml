@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "RSA challenge; Do you have what it takes?"
+difficulty = "easy"
+name = "Hero 1"
+folder_name = "Hero 1"
+files = ["dist/Hero 1 chall.py", "dist/README.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{RS4_mu1t!prim3_f4ct0r1ng}"
+
+[[challenge.services]]
+name = "hero-1"
+path = "service/hero-1"
+type = "internal"

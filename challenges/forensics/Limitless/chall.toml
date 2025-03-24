@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Ryo Soikutsu"
+category = "forensics"
+description = "I received a weird email with this zip file from some guy named Satoru Gojo. Apparently there's a flag in there somewhere, but I'm too lazy to check"
+difficulty = "easy"
+name = "Limitless"
+folder_name = "Limitless"
+files = ["dist/challenge.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{rY0ik1_7enK4i_MurY0kU5h0_jNZT9Nu6DM72FXcaypxcJZzf}"

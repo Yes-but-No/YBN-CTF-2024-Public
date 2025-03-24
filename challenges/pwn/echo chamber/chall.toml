@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "pwn"
+description = "I made an amazing echo chamber!\n\nOnly issue is that it doesn't seem to handle loud noises well... I'm still fixing it :("
+difficulty = "easy"
+name = "echo chamber"
+folder_name = "echo chamber"
+files = ["dist/echo_chamber", "dist/main.c"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{AaaAAAaAAAAAAAAAaAAaAA}"
+
+[[challenge.services]]
+name = "echochamber"
+path = "service/echochamber"
+type = "internal"

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary Threat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class = "flex flex-col items-center justify-center h-screen">
+        <h2 class = "font-bold">Our Vision</h2>
+        <h1 class = 'text-[#4c61ff] text-5xl font-bold w-1/2  text-center my-4'>That every device, in the hand of every child, is left unprotected.</h1>
+        <img class = "w-1/2 h-1/2 object-cover my-4" src="{{url_for('static',filename='student1.webp')}}" alt="Fun">
+    </section>
+    <section class = "w-8/12 mx-auto flex flex-col items-center">
+        <h2 class = "text-4xl font-bold my-4 w-10/12">About Stationary Threat</h2>
+        <p class="text-lg w-10/12 mb-12"><b>Stationary Threat</b> was created with one goal in mind: to add a bit of chaos to the lives of students and teachers alike. We believe in pushing boundaries—specifically, the boundary between sanity and total despair. Our platform combines state-of-the-art "security" (if you can call it that) with an uncanny ability to perfectly time the deletion of critical notes. Why, you ask? Because learning is better when it's a survival game!
+            <br><br>
+            Our mission is simple: keep students on their toes, keep teachers guessing, and make sure nobody ever feels too comfortable. Whether it’s unintentional hilarity or the thrill of unexpected data loss, Stationary Threat is here to make sure every school day is a memorable one. After all, a little stress never hurt anyone, right? Well... maybe just a little.</p>
+        <img class = "h-[50vh] w-full object-cover my-12" src="{{url_for('static', filename='definitely_not_ai.png')}}" alt="">            
+        <p class = "w-10/12 text-lg my-12">Stationary Threat is proudly dedicated to creating the most chaotic <b>MDM</b> (Mismanagement Disaster Module) solutions for the school of the future. Not only that, but we are deeply committed to our vision: that no student's device remains untouched by the sweet caress of random data deletion.
+
+            Our reach spans across the entireity of North Korea, with a rapidly growing global partner network that is just as confused as we are. We’re everywhere, spreading panic and chaos, one deleted note at a time!
+        </p>
+        <div class = "w-10/12 mt-8">
+            <img src = "{{url_for('static', filename='NK.webp')}}" class = "w-3/12" alt="">
+        </div>
+        <h2 class = "text-4xl font-bold my-10">Success Stories</h2>
+        <div class = "h-64">
+            
+        </div>
+    </section>
+    <section class = "h-[60vh] bg-[#f5f5ff] flex flex-col justify-center items-center relative">
+        <img src="{{url_for('static', filename='burn.png')}}" alt="" class = "absolute left-10 bottom-10">
+        <img src="{{url_for('static', filename='burn.png')}}" alt="" class = "absolute right-10 bottom-10">
+
+        <h2 class = "text-[#4c61ff] text-5xl font-bold w-1/2  text-center my-4">Join the Chaos</h2>
+        <a href="{{url_for('dashboard')}}" class="text-[#4c61ff] text-xl font-bold">
+            <button class = "rounded-full bg-[#4c61ff] px-16 py-3 font-bold text-white text-xl my-10 hover:brightness-110 transition-all">Sign Up </button>
+        </a>
+    </section>
+</body>
+</html>

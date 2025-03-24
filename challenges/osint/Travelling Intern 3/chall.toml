@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "Our intern has flown off, I wonder which flight she's on? \nFlag Format: YBN24{flight number_aircraft type in ICAO naming} (in upper case)\nPS: You might want to store the flag somewhere first."
+difficulty = "hard"
+name = "Travelling Intern 3"
+folder_name = "Travelling Intern 3"
+files = ["dist/file.heic"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{NZ283_B77W}"
+
+[[challenge.hints]]
+cost = 100
+content = "Try searching this poem called \"The Coast\""

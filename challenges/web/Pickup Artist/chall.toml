@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "Baba was told use this fancy rendering library, but he's not sure wheter he did it right. I'm sure it'll be fine, right?"
+difficulty = "medium"
+name = "Pickup Artist"
+folder_name = "Pickup Artist"
+files = ["dist/views.zip"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{MAstER_P1ckUP_aRt!St}"
+
+[[challenge.services]]
+name = "pickup_artist"
+path = "service/Pickup_Artist"
+type = "internal"

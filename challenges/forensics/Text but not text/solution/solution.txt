@@ -1,0 +1,9 @@
+Step 1 - Figure out its not just a txt file
+
+Google the first line of the file and figure out its a Godot TSCN file format. Change the file extension into TSCN.
+
+Step 2 - Install Godot and open the file
+
+Install Godot and create a new project.
+Add the TSCN file into the project folder.
+Once the file is loaded, click on it and enter 2D view to see the flag.

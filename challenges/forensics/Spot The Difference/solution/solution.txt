@@ -1,0 +1,2 @@
+1. Use a hex editor and patch the jpg by comparing it with a regular jpg side by side 
+2. Once the image is repaired, there is a flag camoflauged in the image, intended solve strat is to put it into cyberchef and use the randomnise color palette feature to uncover the flag 

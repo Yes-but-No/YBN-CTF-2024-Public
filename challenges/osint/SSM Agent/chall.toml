@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "osint"
+description = "Welcome Agent! David, one of our missing agents, has his identity leaked. Your mission, if you choose to accept, is to gather more information and bring him home! We last saw him playing CTFs with SSM, good luck!\n\n*This challenge is systematically solved"
+difficulty = "hard"
+name = "SSM Agent"
+folder_name = "SSM Agent"
+files = ["dist/Code 1 redacted.png", "dist/Code 2 redacted.png", "dist/Code 3 redacted.png", "dist/Instructions redacted.png", "dist/README.txt"]
+
+[challenge.extras]
+finals = true
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{LOGAN_SVENSEN_YU_YANG}"

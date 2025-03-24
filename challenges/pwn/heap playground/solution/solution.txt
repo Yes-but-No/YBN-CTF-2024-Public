@@ -1,0 +1,1 @@
+Simple UAF. Seems like the fastbins need to be populated first before the exploit can work.

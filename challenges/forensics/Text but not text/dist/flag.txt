@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://inmdtstb3ryw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="YBN" type="Label" parent="."]
+offset_left = 298.0
+offset_top = 278.0
+offset_right = 334.0
+offset_bottom = 301.0
+text = "YBN"
+metadata/flag = &"test"
+
+[node name="a" type="Label" parent="."]
+offset_left = 535.0
+offset_top = 277.0
+offset_right = 543.0
+offset_bottom = 300.0
+text = "}"
+
+[node name="n" type="Label" parent="."]
+offset_left = 459.0
+offset_top = 279.0
+offset_right = 469.0
+offset_bottom = 302.0
+text = "7"
+
+[node name="b" type="Label" parent="."]
+offset_left = 353.0
+offset_top = 277.0
+offset_right = 362.0
+offset_bottom = 300.0
+text = "{"
+
+[node name="c" type="Label" parent="."]
+offset_left = 426.0
+offset_top = 279.0
+offset_right = 436.0
+offset_bottom = 302.0
+text = "73"
+
+[node name="d" type="Label" parent="."]
+offset_left = 362.0
+offset_top = 277.0
+offset_right = 371.0
+offset_bottom = 300.0
+text = "g"
+
+[node name="e" type="Label" parent="."]
+offset_left = 511.0
+offset_top = 279.0
+offset_right = 521.0
+offset_bottom = 302.0
+text = "n"
+
+[node name="x" type="Label" parent="."]
+offset_left = 523.0
+offset_top = 279.0
+offset_right = 533.0
+offset_bottom = 302.0
+text = "3"
+
+[node name="y" type="Label" parent="."]
+offset_left = 372.0
+offset_top = 278.0
+offset_right = 382.0
+offset_bottom = 301.0
+text = "0"
+
+[node name="z" type="Label" parent="."]
+offset_left = 501.0
+offset_top = 279.0
+offset_right = 511.0
+offset_bottom = 302.0
+text = "3"
+
+[node name="o" type="Label" parent="."]
+offset_left = 470.0
+offset_top = 279.0
+offset_right = 480.0
+offset_bottom = 302.0
+text = "_"
+
+[node name="f" type="Label" parent="."]
+offset_left = 480.0
+offset_top = 279.0
+offset_right = 490.0
+offset_bottom = 302.0
+text = "5"
+
+[node name="g" type="Label" parent="."]
+offset_left = 491.0
+offset_top = 278.0
+offset_right = 501.0
+offset_bottom = 301.0
+text = "c"
+
+[node name="h" type="Label" parent="."]
+offset_left = 331.0
+offset_top = 278.0
+offset_right = 341.0
+offset_bottom = 301.0
+text = "24"
+
+[node name="i" type="Label" parent="."]
+offset_left = 415.0
+offset_top = 277.0
+offset_right = 425.0
+offset_bottom = 300.0
+text = "_"
+
+[node name="k" type="Label" parent="."]
+offset_left = 395.0
+offset_top = 278.0
+offset_right = 405.0
+offset_bottom = 301.0
+text = "07"
+
+[node name="j" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 278.0
+offset_right = 457.0
+offset_bottom = 301.0
+text = "x"
+
+[node name="l" type="Label" parent="."]
+offset_left = 383.0
+offset_top = 278.0
+offset_right = 393.0
+offset_bottom = 301.0
+text = "d"

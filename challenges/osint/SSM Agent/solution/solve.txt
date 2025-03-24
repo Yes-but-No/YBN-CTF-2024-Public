@@ -1,0 +1,19 @@
+Go to SSM ctftime page and go to all possible discords tactically of the CTFs SSM participated
+
+Instructions: OSCTF
+Code 1: qsr N0PCTF
+Code 2: ucxa GreyCTF
+Code 3: vvu WaniCTF
+
+Google Meet: https://meet.google.com/qsr-ucxa-vvu and follow instructions in the meet
+
+Zhong Ding: Duck
+Yu Yang: Chicken (odd one out because don't swim)
+Ravin: Goose
+David: Swan
+
+Mr X: Logan Svensen because can find all other clue cards in area
+Mole: Yu Yang
+
+Find David and flag is arranged:
+YBN24{LOGAN_SVENSEN_YU_YANG}

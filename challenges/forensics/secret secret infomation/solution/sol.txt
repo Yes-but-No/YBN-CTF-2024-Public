@@ -1,0 +1,4 @@
+1. The binary in the file is all jumbled up and only 4 parts are arranged neatly.
+2. Through converting “YBN24{" into binary and searching it in the image, we are able to find the starting of the flag.
+3. We also notice that there's underscores used and searching for that would lead us to the remaining parts of the flag.
+4. Converting the binary and combining it would give the flag “YBN24{t00k_y0u_l0Ng_3n0UgH}”.

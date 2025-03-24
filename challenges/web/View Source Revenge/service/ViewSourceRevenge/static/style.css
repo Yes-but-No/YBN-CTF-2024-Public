@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Cascadia';
+    src: url("cascadia-code/Cascadia.ttf");
+}
+body{
+    background:#181818;
+    color:white;
+    font-family: 'Cascadia', sans-serif;
+}
+h1{
+    color:#9cdcfe;
+    margin:0;
+    text-align: center;
+}
+
+h2{
+    color:#c38c69;
+    font-weight: 400;
+    margin:0;
+    text-align: center;
+}
+input{
+    color:#252525;
+    font-size:1em;
+    font-family: 'Cascadia', sans-serif;
+    border:none;
+    padding:0.2em 0.5em;
+    border-radius: 0.2em;
+    font-weight: bold;
+}
+
+input:hover{
+    filter:brightness(0.8)
+}
+
+a{
+    color:#9cdcfe;
+    /* text-decoration: none; */
+}

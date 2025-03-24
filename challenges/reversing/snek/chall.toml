@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "reversing"
+description = "Oh it's just a pyc file! Let me just run it and... oh... OH NO"
+difficulty = "medium"
+name = "snek"
+folder_name = "snek"
+files = ["dist/enc.pyc", "dist/encrypted_flag.txt"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{0pCoDEs_4R3_FUN_RIgHt???_3cbb0171d96aeb664ef7694e98f2661b}"

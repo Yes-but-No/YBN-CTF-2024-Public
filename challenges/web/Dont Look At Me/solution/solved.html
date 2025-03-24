@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't look at me!</title>
+    <script src = "https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-stroke-white {
+            -webkit-text-stroke: 1px white; /* Stroke width and white color */
+        }
+    </style>
+</head>
+<script>
+    function hide(){
+        const secretEle = document.getElementById('secret');
+        // secretEle.innerHTML = 'EWWWW did you try to look under me?'
+    }
+    document.oncontextmenu = () => {
+        hide()
+    }
+    document.onkeydown = (e) => {
+        const secretEle = document.getElementById('secret');
+
+        if (e.key == 123) {
+            hide()
+        }
+        if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+            hide()
+        }
+        if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+            hide()
+        }
+        if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+            hide()
+        }
+        if (e.ctrlKey && e.key == 'U') {
+            hide()
+        }
+    };
+    function loaded() {
+        const secretEle = document.getElementById('secret');
+        if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+            hide()
+        } 
+        else{
+            _0x2c43cf()
+        }
+        window[_0x2c43cf]=()=>{}
+        _0x2c43cf = ()=>{}
+    }
+    window.onload = loaded
+    console.log("Don't Peek!!! Bet you can't even find the main script being run!")
+    console.log("If you really want the way to my heart, you must find my source.")
+    
+</script>
+<body class = 'bg-black'>
+    <div class = "border-white border-8 rounded-xl absolute -left-12 -bottom-12 w-2/12 h-2/6"></div>
+    <div class = "border-white border-8 rounded-xl absolute -right-4 -top-32 w-5/12 h-2/6"></div>
+    <div class = "border-white border-8 rounded-xl absolute -right-10 -top-12 w-2/12 h-4/6"></div>
+    <div class = "border-white border-8 rounded-xl absolute -right-10 -bottom-12 w-3/12 h-1/6"></div>
+    <div class = "flex justify-center flex-col align-middle items-center gap-8 shadow-[0_0_50px_0px_rgba(0,0,0,0.1)] shadow-white h-5/6 aspect-square absolute left-1/2 -translate-x-1/2 rounded-full top-1/2 -translate-y-1/2">
+        <div class = "text-6xl text-center font-bold text-transparent text-stroke-white stroke-2 w-10/12">Don't Look At Me!!!</div>
+        <div class = "w-64 h-24 relative overflow-hidden shadow-[0_0_10px_0px_rgba(0,0,0,0.1)] shadow-white">
+            <div id = "secret" class = "text-gray-700 w-9/12 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-wrap">Top Secret!!! Rendered on the Client</div>
+            <button class = "z-10 relative hover:brightness-125 transition-all rounded-md p-4 text-2xl bg-[#091b2e] w-full h-full shadow-[0_0_10px_0px_rgba(0,0,0,0.1)] shadow-white font-bold text-[#89AFE1]">Please Don't Remove Me!</button>
+        </div>
+    </div>
+    
+    <script src = "decrypt.js"></script>
+</body>
+
+</html>

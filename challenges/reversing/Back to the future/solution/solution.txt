@@ -1,0 +1,11 @@
+The binary is `DMC_DeLorean`. When running `file`, we get this.
+```
+DMC_DeLorean: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=149c58d983b39086d83a8b0e3d27e2359d093fa9, for GNU/Linux 3.2.0, stripped
+```
+Steps to solve:
+1. Open in ghidra (or decompiler of your choice)
+2. Find the password checking function.
+3. In the password checking function, it decrypts some shellcode by XORing with `0x12`, and calls it with the password and two other parameters (`param_2` is the value that is checked, `param_3` is the amount of times the value is iterated by).
+4. The encryption(ish) scheme used is a xorshift32 with a total state size of 2^32.
+5. Hence, by extracting the expected values and amount of times it was used for iteration, we can get the expected values at time of input. (solution file at `solve.c`)
+6. Profit!

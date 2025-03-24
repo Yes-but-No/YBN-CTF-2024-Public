@@ -1,0 +1,32 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "crypto"
+description = "Let's play a guessing game.\n\nI'll be thinking of numbers, and you can guess them before I reveal them to you. If you guess correct 100 times straight, you will get the flag (which is my prize for you)! I will tell you whether you guess correctly, and the correct answer.\n\nTip: m=483. The other vars that no need adjusting we leave it as is.\n\nThanks!"
+difficulty = "medium"
+name = "MT23209-32"
+folder_name = "MT23209-32"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN{M3rs3nn3_Tw1$t3R_23209_dd09369ad93b2d4d8526}"
+
+[[challenge.hints]]
+cost = 50
+content = "MT19937 stands for Mersenne Twister (using Mersenne prime of 19937), what does MT23209 stand for? And that 32 at that back ðŸ¤”."
+
+[[challenge.hints]]
+cost = 100
+content = "You should go look at how Mersenne Twister works, not just shove in some crack script and be done with it: https://en.wikipedia.org/wiki/Mersenne_Twister#Algorithmic_detail"
+
+[[challenge.services]]
+name = "mt23209"
+path = "service/mt23209"
+type = "internal"

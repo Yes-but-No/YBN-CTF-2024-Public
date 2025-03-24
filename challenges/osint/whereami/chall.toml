@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "osint"
+description = "Aw man, my favorite store closed down! I can't seem to remember the name of the store, can you help me find it?\n\nFlag format: YBN24{<shop_name>_<town>} (all lowercase, words seperated by underscores)\n\nE.g. If the shop is \"Toast Box\" in Jurong, flag will be `YBN24{toast_box_jurong}`"
+difficulty = "medium"
+name = "whereami"
+folder_name = "whereami"
+files = ["dist/whereami.jpg"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{fresver_beauty_hougang}"

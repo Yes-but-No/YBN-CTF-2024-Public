@@ -1,0 +1,41 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "web"
+description = "Yet another business card generator.  \nGenerate your cards for free today!\n\n* if it hangs/keeps on loading, please open a ticket with what you have tried."
+difficulty = "hard"
+name = "YABCG"
+folder_name = "YABCG"
+
+[challenge.extras]
+finals = false
+tags = "RCE Possible"
+
+[[challenge.flags]]
+flag = "YBN{S4n1ti$3-Your-1npUt$-Pr0p3rlY-Thymeleaf-a7d4ac913d95f43}"
+
+[[challenge.hints]]
+cost = 180
+content = "https://www.thymeleaf.org/doc/articles/thymeleaf31whatsnew.html#:~:text=Tighter%20restrictions%20on,sun.*%20and%20sun.*."
+
+[[challenge.hints]]
+cost = 50
+content = "The server is running Thymeleaf and Spring Boot."
+
+[[challenge.hints]]
+cost = 50
+content = "There are no purpose-built/bespoke filters in place."
+
+[[challenge.hints]]
+cost = 50
+content = "Where does one usually Go sEarch for Credentials/passwOrdS on Linux?"
+
+[[challenge.services]]
+name = "yabcg"
+path = "service/yabcg"
+type = "internal"

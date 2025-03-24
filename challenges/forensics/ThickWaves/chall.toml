@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "P3RPL3X"
+category = "forensics"
+description = "Iâ€™m in the thick of it, hidden in the flow, Buried in the WAVs, where secrets softly show. Donâ€™t ask me â€™bout the silence; each bit plays its role, Layers on the surface, but the least completes the whole."
+difficulty = "easy"
+name = "ThickWaves"
+folder_name = "ThickWaves"
+files = ["dist/thickwaves.wav"]
+
+[challenge.extras]
+finals = false
+tags = "ssm"
+
+[[challenge.flags]]
+flag = "YBN24{Th1ck0fTh3W4v3s}"

@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "reversing"
+description = "David went on an adventure and picked up gems along the way. However, during his adventure, he messed up his backpack. Can you help him recover it to its orginal state?"
+difficulty = "medium"
+name = "Adventure Revenge"
+folder_name = "Adventure Revenge"
+files = ["dist/adventure_chall.py", "dist/output.txt"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{m35sy_g3m_p1ck1n9_4Dv3n7Ur3_8A293beo7I}"

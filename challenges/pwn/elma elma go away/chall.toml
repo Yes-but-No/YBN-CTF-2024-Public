@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "pwn"
+description = "do u pwn?"
+difficulty = "impossible"
+name = "elma elma go away"
+folder_name = "elma elma go away"
+files = ["dist/chall.c", "dist/chall_dist", "dist/ld-linux-x86-64.so.2", "dist/libc.so.6"]
+
+[challenge.extras]
+finals = true
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{1_C4NT_TH1NK_0F_4_FL4G_S0_H3R3_1S_S0METH1NG_L0NG_SUBM1T_TH15}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "chall"
+path = "service/chall"
+type = "internal"

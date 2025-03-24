@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Warri"
+category = "pwn"
+description = "I made a memory simulator in python! It should be secure...so I'm gonna leave the flag in a READ_ONLY region!"
+difficulty = "medium"
+name = "memory_sim"
+folder_name = "memory_sim"
+files = ["dist/chall.py"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{n3g4tive_inDexeS_aNd_struCt_ov3rfl0W!}"
+
+[[challenge.services]]
+name = "pypwn"
+path = "service/pypwn"
+type = "internal"

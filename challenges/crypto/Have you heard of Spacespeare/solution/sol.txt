@@ -1,0 +1,1 @@
+1. Using a zero width space decoder (https://330k.github.io/misc_tools/unicode_steganography.html), we are able to decrypt the text which gives the flag "YBN24{h1dd3n_1n_pl41n_s1ght}"  

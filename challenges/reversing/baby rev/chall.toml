@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "reversing"
+description = "heres a simple rev challenge!"
+difficulty = "easy"
+name = "baby rev"
+folder_name = "baby rev"
+files = ["dist/thread"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{s3per_s3cur3_p4ssw0rd_but_h0w_d0_1_st0r3_it?}"

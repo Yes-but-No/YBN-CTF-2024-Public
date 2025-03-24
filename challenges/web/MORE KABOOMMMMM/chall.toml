@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "The North Korean's are still after Baba for the several war crimes he committed in their country. In order to better optimise the locations of the nukes they drop such that Baba is guaranteed to be hit, they decided to make a helpful UI to determine exactly where the nukes should be dropped!\n\nBaba has managed to successfully infiltrate into their website. He needs to find a way to mess up their website so that the bombs don't land on him. Can you help Baba escape his imminent doom?"
+difficulty = "easy"
+name = "MORE KABOOMMMMM"
+folder_name = "MORE KABOOMMMMM"
+files = ["dist/MORE KABOOOMMMMMMMMMMMMMM.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{I_10VE_J4vaScR1P7}"
+
+[[challenge.services]]
+name = "more_kaboom"
+path = "service/more_kaboom"
+type = "internal"

@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  chall:
+    build: .
+    ports:
+      - 5902:5902
+    privileged: true

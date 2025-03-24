@@ -1,0 +1,33 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "misc"
+description = "Can you get out of the maze in 1 minute?\n\n* if it renders badly, change your terminal font or change your terminal"
+difficulty = "hard"
+name = "Maze Runner"
+folder_name = "Maze Runner"
+
+[challenge.extras]
+finals = true
+tags = "algorithms"
+
+[[challenge.flags]]
+flag = "YBN{y0u_h4v3_f0uND_Y0uR_w4Y_ou+_0f_+H1$_M4Z3_YAY_a7e717e6507}"
+
+[[challenge.hints]]
+cost = 30
+content = "Use pwntools to interact with the TCP server."
+
+[[challenge.hints]]
+cost = 100
+content = "Try using DFS to solve the maze."
+
+[[challenge.services]]
+name = "mazerunner"
+path = "service/mazerunner"
+type = "internal"

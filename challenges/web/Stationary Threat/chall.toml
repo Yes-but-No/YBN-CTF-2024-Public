@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "Welcome to Stationary Threat â€“ the website no one asked for, but uses for some reason. Built for districts and schools to keep an extra close eye on students, it boasts \"security\" so advanced that even Baba could crack it.\n\nGot notes saved online? Well, don't worry, Stationary Threat has your back! We thoughtfully delete all your notes just a few weeks before exams, because nothing says \"student success\" like a little pre-test panic.  And best of all, we'll get paid for it, and there's nothing you can do :D"
+difficulty = "easy"
+name = "Stationary Threat"
+folder_name = "Stationary Threat"
+files = ["dist/files.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{@utHEnT!cA71On?_wha7'S_7h4t?}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "stationary_threat"
+path = "service/Stationary_Threat"
+type = "internal"

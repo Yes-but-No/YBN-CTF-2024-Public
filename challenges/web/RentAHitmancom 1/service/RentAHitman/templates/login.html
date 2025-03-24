@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Hitwoman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Patua One', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <section class = "w-full flex flex-col items-center gap-4 my-16">
+        <h1 class = "text-[#ff3705] text-5xl">LOGIN TO BE A HITWOMAN!</h1>
+        <img src = "{{url_for('static',filename='login_woman.png')}}">
+        <form  class = "flex flex-col gap-2 justify-center items-center w-full" action = "{{url_for('login')}}" method = "POST">
+            <input class = "bg-[#FFD3C8] rounded-lg w-5/12 text-2xl px-4 py-2" type = "text" name = "username" placeholder = "Username">
+            <input class = "bg-[#FFD3C8] rounded-lg w-5/12 text-2xl px-4 py-2" type = "password" name = "password" placeholder = "Password">
+            <button type = "submit" class="relative bg-[#ff3705]  rounded-full text-white w-fit px-10 py-2 text-2xl
+            hover:brightness-90 transition-all duration-200">
+                LOGIN!
+            </button>
+            
+        </form>
+        {% if not success and display %}
+        <p class = "text-red-500">Username or Password Incorrect!</p>
+        {% elif success %}
+        <p class = "text-green-500">Login Successful!</p>
+        {% endif %}
+        <a class = "underline text-blue-500 hover:brightness-125 transition-all duration-200" href = "{{url_for('signup')}}">SignUp Instead?</a>
+
+    </section>
+</body>

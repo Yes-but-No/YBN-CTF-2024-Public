@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Warri"
+category = "reversing"
+description = "hi admin can you replace this description to just display `dist/desc.png`? Thanks"
+difficulty = "hard"
+name = "yesbutno"
+folder_name = "yesbutno"
+files = ["dist/desc.png", "dist/yesbutno"]
+
+[challenge.extras]
+finals = false
+tags = "manual ctfd edit"
+
+[[challenge.flags]]
+flag = "YBN24{y3s_bUt_No_w4!t_actU4lly_ye5_buTt_n0_mAYb3_yEs}"

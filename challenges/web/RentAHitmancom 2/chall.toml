@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "Ohno! You've infiltrated our database?? How dare you!!!\n\nAlls good though. Theres no way you are able to gain admin powers!\n\nThis is part 2 of a 2 part challenge series. The flag to be submitted here is Flag 2. The code and website used is the same as that in RentAHitman.com 1"
+difficulty = "hard"
+name = "RentAHitman.com 2"
+folder_name = "RentAHitmancom 2"
+
+[challenge.extras]
+finals = false
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{WHO_PuT_cRYpTO_IN_MY_w3B_chAlL?}"
+case_insensitive = true

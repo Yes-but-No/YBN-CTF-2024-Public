@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Daksh"
+category = "crypto"
+description = "I hit 64 bases, and my coach sent me this message. "
+difficulty = "easy"
+name = "64 Bases"
+folder_name = "Bases"
+files = ["dist/message.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{Gr3at_w0rk_0u7_th3r3}"

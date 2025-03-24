@@ -1,0 +1,22 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "reversing"
+description = "The debuggers... they're everywhere! Under my skin, even!"
+difficulty = "hard"
+name = "Debuggerphrenia"
+folder_name = "Debuggerphrenia"
+files = ["dist/chall"]
+
+[challenge.extras]
+finals = false
+tags = "ssm"
+
+[[challenge.flags]]
+flag = "YBN24{D3BUGG3R_N3V3R_H34RD_0F_H3R}"
+case_insensitive = true

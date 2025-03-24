@@ -1,0 +1,80 @@
+body{
+    background:#1A1A1A;
+    color:white;
+    font-family: Inter, sans-serif;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url("/static/images/graph_bg.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+h1{
+    font-size:5rem;
+    font-weight:700;
+}
+
+.about{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+}
+.about img {
+    width:70%;
+    max-height: 70vh;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    color:#AFB0B6;
+}
+
+.online, .graph{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    padding: 0 4em;
+    gap:2em;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    flex-direction: column;
+    margin: 2em 0;
+    margin-bottom:10em
+}
+
+button{
+    background:#aaa9a97e;
+    color:rgba(255, 255, 255, 0.76);
+    font-size: 1.5rem;
+    font-family: Inter, sans-serif;
+    padding: 0.5em 3em;
+    font-weight:bold;
+    border:none;
+    border-radius: 0.5em;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}

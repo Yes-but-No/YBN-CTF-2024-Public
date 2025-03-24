@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "pwn"
+description = "TODO: Craft the admin console "
+difficulty = "medium"
+name = "Stackfaulted"
+folder_name = "Stackfaulted"
+files = ["dist/stackfaulted"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{St4Ck3d_F4Ult3d_Th3_Sh3LLC0d3!!_50a22816}"
+
+[[challenge.services]]
+name = "stackfaulted"
+path = "service/stackfaulted"
+type = "internal"

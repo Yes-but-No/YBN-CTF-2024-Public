@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "pwn"
+description = "Figure out who has the flag in our super secure quiz system!"
+difficulty = "easy"
+name = "Bluffer Overflow"
+folder_name = "Bluffer Overflow"
+files = ["dist/bluffer_overflow"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{Li3s_4Nd_D3C3iT_e2784039}"
+
+[[challenge.services]]
+name = "bluffer_overflow"
+path = "service/bluffer_overflow"
+type = "internal"

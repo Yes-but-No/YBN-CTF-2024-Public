@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "No, But Yes, But No, But Yes, But No, But Yes, But No, But Yes, But No, But Yes, But No, But Yes, But No, But Yes"
+difficulty = "medium"
+name = "NoButYes"
+folder_name = "NoButYes"
+files = ["dist/dist.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{8@ba_!S_A_B@d_PRo6rAmm3R}"
+
+[[challenge.services]]
+name = "nobutyes"
+path = "service/NoButYes"
+type = "internal"

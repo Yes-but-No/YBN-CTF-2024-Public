@@ -1,0 +1,17 @@
+{
+    "flags": {
+        "flag_format": "YBN24{*}",
+        "valid_flag": "rY0ik1_7enK4i_MurY0kU5h0_*",
+        "invalid_flags": "kY0Sh1ki_Mur4sAk1_*",
+        "flag_salt": "autogenerate.24",
+        "salt_chars": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    },
+    "challenge_directory": "../dist/challenge",
+    "challenge_size": "2500",
+    "postcreate_data": {
+        "valid_flag": "YBN24{rY0ik1_7enK4i_MurY0kU5h0_jNZT9Nu6DM72FXcaypxcJZzf}",
+        "flag_salt": "jNZT9Nu6DM72FXcaypxcJZzf",
+        "flag_file": 351,
+        "dist_zip": "_chall_351_jNZT9Nu6DM72FXcaypxcJZzf"
+    }
+}

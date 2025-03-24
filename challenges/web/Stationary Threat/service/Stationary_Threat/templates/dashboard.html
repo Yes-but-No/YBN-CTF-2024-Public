@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary Threat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class = "w-full flex flex-col justify-center align-middle items-center h-screen">
+        <h1 class="text-[#4c61ff] text-5xl font-bold w-1/2 text-center my-4">
+            Welcome {{user}}!
+        </h1>
+        <div>
+            <a href="{{url_for('nuke')}}" class="text-[#4c61ff] text-xl font-bold">
+                <button class = "rounded-full bg-[#4c61ff] px-16 py-3 font-bold text-white text-xl my-10 hover:brightness-110 transition-all">Delete All Notes</button>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

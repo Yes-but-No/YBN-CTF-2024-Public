@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "crypto"
+description = "I am awoken from my slumber\nBy the dit and the dahs that pierces through the night\n\nMy eyes snap open\nMy heart begins to race\n\nI rummage through drawers, I scour through shelves,\n\nHoping to uncover the sound that delves\nAt last, a note was found, tucked away.\nRevealing a tale, a hidden display..."
+difficulty = "easy"
+name = "easy peasy lemon squeezy"
+folder_name = "easy peasy lemon squeezy"
+files = ["dist/drink recipe.txt"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{H0N3Y_13M0N_1iM3_15_YUMMY}"
+
+[[challenge.hints]]
+cost = 50
+content = "Perhaps the sounds are meant to be replaced"

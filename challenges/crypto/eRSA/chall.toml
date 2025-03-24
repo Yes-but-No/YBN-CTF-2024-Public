@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JacTBB"
+category = "crypto"
+description = "mfw the e in (n,e) stands for Elliptic (By Warri)"
+difficulty = "hard"
+name = "eRSA"
+folder_name = "eRSA"
+files = ["dist/chall.py", "dist/output.txt"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "ybn24{yes_but_ecm_but_no_but_ecm_but_yes_but_no}"
+case_insensitive = true

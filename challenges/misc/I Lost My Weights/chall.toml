@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "wHo"
+category = "misc"
+description = "I hid the flag in the output of an binary classifier but I misplaced its weights! Could you help me recover them?\n\nNote: Use the train_x and train_y fields as the training input, and predict the flag using the test_x field."
+difficulty = "hard"
+name = "I Lost My Weights"
+folder_name = "I Lost My Weights"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{un1v3r5al_4ppr0x1m4t10n_th30r3m}"
+
+[[challenge.services]]
+name = "web"
+path = "service/web"
+type = "internal"

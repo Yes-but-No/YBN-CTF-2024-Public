@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent A Hitwoman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Patua One', cursive;
+        }
+    </style>
+</head>
+
+<body>
+     {% include 'nav.html' %}
+    <section class="w-full h-screen">
+        <img src="{{url_for('static',filename = 'hitwoman.png')}}" alt="Rent A Hitwoman"
+            class="absolute left-0 top-0 w-full h-full object-cover z-0">
+        <div
+            class="absolute z-10 w-1/2 left-3/4 -translate-x-1/2 flex flex-col gap-10 top-1/2 -translate-y-1/2 items-center">
+            <h1 class="text-6xl text-white text-center">RENT-A-HITMAN</h1>
+            <h2 class="text-4xl text-white text-center">Your Click <br>&<br>Point Solution</h2>
+            <div class="flex flex-col justify-center align-middle items-center gap-4">
+                <p class="text-white text-4xl">We are <b>99.99%</b> HIPPA Compliant</p>
+                <p class="text-white text-2xl w-1/2 text-center">(<b>H</b>itman <b>I</b>nformation <b>P</b>rivacy
+                    & <b>P</b>rotection <b>A</b>ct of 1964)</p>
+            </div>
+            <a href = "{{url_for('signup')}}">
+            <button class="relative bg-[#ff3705]  rounded-full text-white w-fit px-10 py-4 text-2xl
+            hover:brightness-90 transition-all duration-200">
+                SIGNUP TODAY!
+            </button>
+            </a>
+        </div>
+    </section>
+    <section class = "h-[80vh] flex flex-col justify-center align bg-[#F6F6F6]">
+        <h2 class="text-5xl text-center text-[#ff3705]">THE DARK WEB IS SAFE, AND SO ARE WE!</h2>
+        <div class="w-9/12 text-center m-auto my-4 "><span class="text-black text-2xl font-normal font-['Lato']">It's common knowledge
+                that the though Dark & Deep webs are extremely safe marketplaces for carrying out virtuous deeds.
+                However, these deeds often lack equality for both genders!<br /><br />RENT-A-HITMAN is a safe(ish) and
+                secure(ish) option that’s easily accessible to </span><span
+                class="text-black text-2xl font-bold font-['Lato']">MAN</span><span
+                class="text-black text-2xl font-normal font-['Lato']"> on the </span><span
+                class="text-black text-2xl font-bold font-['Lato']">Y</span><span
+                class="text-black text-2xl font-normal font-['Lato']">our</span><span
+                class="text-black text-2xl font-bold font-['Lato']"> B</span><span
+                class="text-black text-2xl font-normal font-['Lato']">road</span><span
+                class="text-black text-2xl font-bold font-['Lato']"> N</span><span
+                class="text-black text-2xl font-normal font-['Lato']">etwork. We place an importance on maintaining the
+                confidentiality of our clients, ensuring that your information is</span><span
+                class="text-black text-xs font-normal font-['Lato']"> </span><span
+                class="text-black text-2xl font-normal font-['Lato']">private* under </span><span
+                class="text-black text-2xl font-bold font-['Lato']">HIPPA, </span><span
+                class="text-black text-2xl font-normal font-['Lato']">the </span><span
+                class="text-black text-2xl font-bold font-['Lato']">H</span><span
+                class="text-black text-2xl font-normal font-['Lato']">itman </span><span
+                class="text-black text-2xl font-bold font-['Lato']">I</span><span
+                class="text-black text-2xl font-normal font-['Lato']">nformation </span><span
+                class="text-black text-2xl font-bold font-['Lato']">P</span><span
+                class="text-black text-2xl font-normal font-['Lato']">rivacy & </span><span
+                class="text-black text-2xl font-bold font-['Lato']">P</span><span
+                class="text-black text-2xl font-normal font-['Lato']">rotection </span><span
+                class="text-black text-2xl font-bold font-['Lato']">A</span><span
+                class="text-black text-2xl font-normal font-['Lato']">ct of 1964.<br /><br />We would like to assure you
+                that your personal details, especially passwords, only have a </span><span
+                class="text-black text-2xl font-bold font-['Lato']">small(ish)</span><span
+                class="text-black text-2xl font-normal font-['Lato']"> chance of being leaked. After all, our backend
+                has been crafted by the one and only Baba, who’s known for his suspiciously clean cybersecurity
+                records!<br /><br /></span><span class="text-black text-base font-normal font-['Lato']">*private is
+                subjective to the standards of baba and his cybersecurity methods. Definitions of private may vary
+            </span></div>
+            <a href = "{{url_for('signup')}}">
+            <button class="relative bg-[#ff3705]  rounded-full text-white w-fit px-10 py-4 text-2xl mx-auto block
+            hover:brightness-90 transition-all duration-200">
+            INTERESTED? SIGN UP TO BE A HITMAN TODAY!
+            </button>
+            </a>    
+    </section>
+    <section class = "h-[80vh] flex flex-col justify-center align">
+        <h2 class="text-5xl text-center text-[#ff3705]">NOT CONVINCED? HEAR FROM OUR HAPPY CUSTOMERS!</h2>
+        <div class = "flex w-11/12 mx-auto my-16 gap-28 justify-center">
+            <div class = "w-1/4 flex flex-col justify-start items-center gap-4">
+                <img src="{{url_for('static',filename = 'woman1.png')}}" alt="Customer 1" class="w-1/2 aspect-square rounded-full">
+                <p class = "font-bold text-2xl">Baba's Imaginary Girlfriend</p>
+                <p class="text-2xl text-center">"This service is amazing! I hired a contractor to assasinate my boyfriend and they got it done in a day!"</p>
+            </div>
+            <div class = "w-1/4 flex flex-col justify-start items-center gap-4">
+                <img src="{{url_for('static',filename = 'woman2.png')}}" alt="Customer 1" class="w-1/2 aspect-square rounded-full">
+                <p class = "font-bold text-2xl">Sakura</p>
+                <p class="text-2xl text-center">"Wow! I was trying this CTF challenge and wanted to find the person that created it, and this service perfectly covered that!"</p>
+            </div>
+            <div class = "w-1/4 flex flex-col justify-start items-center gap-4">
+                <img src="{{url_for('static',filename = 'woman3.png')}}" alt="Customer 1" class="w-1/2 aspect-square rounded-full">
+                <p class = "font-bold text-2xl">Sophia</p>
+                <p class="text-2xl text-center">"<span class="text-black  font-normal font-['Lato']">Very Good Service." <br/></span><span class="text-[#dadada]/50 font-normal font-['Lato']">please send help Baba is holding me hostage in his basement</span></p>
+            </div>
+        </div>
+        
+    </section>
+</body>

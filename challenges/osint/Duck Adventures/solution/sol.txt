@@ -1,0 +1,7 @@
+1. Checking the image metadata would show us the author of the image which is “shog0s4ka1”.
+2. Running the username through sherlock would lead us to his github which has one repository with 16 edits.
+3. Looking through the encoded extended description we find flags but they are all fake as suggested by the description of the repository.
+4. Under Strawberry Ginger Lemonade -> 3rd update -> extended description there is a link that is encoded with base32, decrypting in dcode would lead to the link (https://www.my-diary.org/read/e/546892023).
+5. Reading the diary, they should notice the weird capitalisation of letters and taking everything down, they get the username (breadmmmless).
+6. Running the username through sherlock would lead them to instagram and checking the email in profile, they will find the flag format with 11NK inside. 
+7. Since there is “duck song 4” in the profile, copying the link from youtube and replacing 11NK in YBN24{11NK} would give the flag “YBN24{https://youtu.be/-IV8cnGU6YM}” or "YBN24{https://m.youtube.com/watch?v=-IV8cnGU6YM}".

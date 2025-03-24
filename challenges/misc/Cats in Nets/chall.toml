@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "misc"
+description = "Lots of CTF Challenges use Netcat or Ncat as the means of connecting to their challenge! It's time to learn how to install and use it."
+difficulty = "easy"
+name = "Cats in Nets"
+folder_name = "Cats in Nets"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{c@t5_IN_NEts_W1th_haTS_@ND_b4ts}"
+
+[[challenge.services]]
+name = "cats-in-nets"
+path = "service/cats-in-nets"
+type = "internal"

@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "crypto"
+description = "Shakespearean is so hard to read, I'm so glad I didn't study his plays. I still love shakespeare tho, but do you know whats' a spacespeare? "
+difficulty = "easy"
+name = "Have you heard of Spacespeare?"
+folder_name = "Have you heard of Spacespeare"
+files = ["dist/To be, or not to be.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{h1dd3n_1n_pl41n_s1ght}"

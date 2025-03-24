@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #C5E2C5;
+  --foreground: #554907;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #C5E2C5;
+    --foreground: #554907;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-family: "Leckerli One";
+}
+
+h2,h3{
+  font-family: "Lemon";
+}

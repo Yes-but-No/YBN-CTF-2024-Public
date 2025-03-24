@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "quackers"
+category = "pwn"
+description = "Oh man those pesky yellow birds are really annoying.\n\nCHIRP CHIRP CHIRP CHIRP CHIRP CHIRP CHIRP"
+difficulty = "easy"
+name = "Pesky Yellow Bird"
+folder_name = "Pesky Yellow Bird"
+files = ["dist/yellow"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{C4NARY_50a22816}"
+
+[[challenge.services]]
+name = "pesky_yellow_bird"
+path = "service/pesky_yellow_bird"
+type = "internal"

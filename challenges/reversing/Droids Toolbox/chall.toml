@@ -1,0 +1,43 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "reversing"
+description = "Droid has a toolbox app that he uses sometimes. I heard he is hiding something in it, go check it out!\n\nNote: This challenge requires an Android device, running Android 8.0 Oreo and above, that passes Google Play Integrity API checks."
+difficulty = "impossible"
+name = "Droid's Toolbox"
+folder_name = "Droids Toolbox"
+files = ["dist/app-release.apk", "dist/server-source.zip"]
+
+[challenge.extras]
+finals = true
+tags = "mobile"
+
+[[challenge.flags]]
+flag = "YBN24{4PP_S19NATUR3S_4R3_1MP0RT4NT}"
+case_insensitive = true
+
+[[challenge.hints]]
+cost = 100
+content = "Decompile the APK. You can try jadx, or dex2jar+procyon"
+
+[[challenge.hints]]
+cost = 50
+content = "The flag is encrypted with 2048-bit RSA. The private key is stored in Android Keystore."
+
+[[challenge.hints]]
+cost = 150
+content = "Android's keystore is built to be secure, don't try to extract any keys from a modern device; it probably won't work"
+
+[[challenge.hints]]
+cost = 200
+content = "Have you thought of the application signature? "
+
+[[challenge.services]]
+name = "server"
+path = "service/server"
+type = "internal"

@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "I found this ancient drawing which had information hidden inside during my adventure, I'm so curious to see what it means..."
+difficulty = "impossible"
+name = "Duck Adventures"
+folder_name = "Duck Adventures"
+files = ["dist/masterplan.jpeg"]
+
+[challenge.extras]
+finals = false
+tags = "ssm"
+
+[[challenge.flags]]
+flag = "YBN24{https://youtu.be/-IV8cnGU6YM}"
+
+[[challenge.hints]]
+cost = 100
+content = "some information may not be available on laptop..."

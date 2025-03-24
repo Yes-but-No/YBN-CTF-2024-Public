@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "Because you were so good, I made it even harder!\nI even asked Fermat to help. I wonder what he did hmm...."
+difficulty = "medium"
+name = "Hero 3"
+folder_name = "Hero 3"
+files = ["dist/Hero 3 chall.py"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{r0und1ng_up_w1th_f3rm4t's_l1ttl3_th30r3m}"
+
+[[challenge.services]]
+name = "hero-3"
+path = "service/hero-3"
+type = "internal"

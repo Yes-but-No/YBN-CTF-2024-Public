@@ -1,0 +1,31 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "*Parody of Alligator Pay from TISC\n\nThe Alligator Pay song has been stuck in Baba's head for weeks! So Baba created a competitor website so that he can forget about it. What could go wrong?\n\nNote from Baba: I accidentally made this challenge way too long. The only relevant files are the adminLogin and adminShop code, as well as the admin API endpoints. The rest can mostly be ignored. "
+difficulty = "impossible"
+name = "Crocodile Pay"
+folder_name = "Crocodile Pay"
+files = ["dist/Website.zip"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{why_Did_i_dEc!De_70_us3_NEx7_j5}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "adminbot"
+path = "service/AdminBot"
+type = "internal"
+
+[[challenge.services]]
+name = "website"
+path = "service/Website"
+type = "internal"

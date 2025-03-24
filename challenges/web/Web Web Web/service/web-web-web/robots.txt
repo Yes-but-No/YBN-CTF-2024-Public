@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /part-4-lol.html

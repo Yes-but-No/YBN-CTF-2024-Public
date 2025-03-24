@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating for Noobz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class = "bg-[#fcd6dd]">
+    <img class = "absolute left-10 top-1/2 -translate-y-1/2 w-1/4" src = "/images/play-with-pet.png">
+    <div id = "form" 
+    class = "gap-4 flex flex-col w-full items-center top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2">
+        <h1 class = "text-[#ffa142] text-center text-4xl font-bold w-1/4">Learn how to flirt from the master</h1>
+        <input id = 'pickup' placeholder = "Enter Your Pickup line here!" 
+        type = "text" class = "rounded-lg px-6 py-2 text-lg w-1/3 font-bold ">
+        <input class = "bg-[#ffa142] rounded-lg px-6 py-2 text-lg w-1/5 font-bold" id = "submit" type = "submit" value = "Submit">
+    </div>
+    <img class = " absolute right-10 top-1/2 -translate-y-1/2 w-1/4" src = "/images/mother.png">
+    <script>
+        const submit = document.getElementById('submit');
+        submit.addEventListener('click', (e) => {
+            e.preventDefault();
+            const pickup = document.getElementById('pickup').value;
+            const pickupNum = Math.floor(Math.random() * 10) + 1;
+            fetch('/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({pickup,pickupNum})
+            })
+            .then(res => res.text())
+            .then(data => {
+                window.location.href = data
+            })
+        })
+    </script>
+</body>
+</html>

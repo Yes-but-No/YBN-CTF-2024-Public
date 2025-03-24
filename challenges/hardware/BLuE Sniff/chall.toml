@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "hardware"
+description = "Use the nRF52832/40 dongle to intercept BLE packets!\n\n\n* Please approach one of our team members who will direct you how to configure your setup. This challenge is at Nexus 2.\n* Max 2 teams at any one time, each team is entitled to max. 30 minutes.\n\nhttps://docs.google.com/document/d/1ikW2cMBwMp3Bidp4tfO7IUr5lVGZIlbbNQJVh19jbEQ/edit?usp=sharing"
+difficulty = "medium"
+name = "BLuE Sniff"
+folder_name = "BLuE Sniff"
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{BLE_1S_VULN3R4BL3_T0_SN1FF1NG_7d9c3}"

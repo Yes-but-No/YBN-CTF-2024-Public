@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "P3RPL3X"
+category = "forensics"
+description = "I managed to hack into this business and I swear there was some important information in here! All i know is that its the end but i dont know what this means????"
+difficulty = "easy"
+name = "crackers"
+folder_name = "crackers"
+files = ["dist/BusinessDocuments.xlsx"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{Y0u_cr4ck3d_m3}"

@@ -1,0 +1,49 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Arc"
+category = "misc"
+description = "where oh where can the flag be"
+difficulty = "easy"
+name = "Warmup 1"
+folder_name = "Warmup 1"
+files = ["dist/flag is not here.txt"]
+
+[challenge.extras]
+finals = false
+tags = "warmup"
+
+[[challenge.flags]]
+flag = "YBN24{...?}"
+
+[[challenge.hints]]
+cost = 0
+content = "YBN24{...is}"
+
+[[challenge.hints]]
+cost = 0
+content = "YBN24{...this}"
+
+[[challenge.hints]]
+cost = 0
+content = "YBN24{...the}"
+
+[[challenge.hints]]
+cost = 0
+content = "YBN24{...flag}"
+
+[[challenge.hints]]
+cost = 0
+content = "YBN24{...?}"
+
+[[challenge.hints]]
+cost = 0
+content = "maybe the flag was the friends we made along the way"
+
+[[challenge.hints]]
+cost = 0
+content = "ok i'll stop trolling, YBN24{...?} is the flag"

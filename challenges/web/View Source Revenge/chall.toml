@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "It seems that Baba introduced a critical bug the last time he created this website. Dont worry though, he's fixed everything this time, at least that's what he says. I'm sure  there's nothing else wrong with his website, right?"
+difficulty = "medium"
+name = "View Source Revenge"
+folder_name = "View Source Revenge"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{F1@sK_DEBUg_CH4L1?_1AM3}"
+
+[[challenge.services]]
+name = "viewsourcerevenge"
+path = "service/ViewSourceRevenge"
+type = "internal"

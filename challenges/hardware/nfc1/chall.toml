@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JacTBB"
+category = "hardware"
+description = "simple nfc challenge along with impersonation. nexus 3. max 2 teams, max 2 ppl/team.\nOnly solve this if you are doing tgt with Impersonation.\n\n(By Czlucius)\n"
+difficulty = "easy"
+name = "nfc1"
+folder_name = "nfc1"
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{NDEF_D4T4_95c3a157d93}"
+case_insensitive = true

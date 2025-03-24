@@ -1,0 +1,22 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "reversing"
+description = "Some things never change...\n\nWARNING -> Please use a VM, do not run untrusted/random code from the internet. This binary is mostly safe, but exercise caution regardless.\n\nNotes -> Defender WILL flag this as malware, so consider disabling defender on your VM, or setting up an exclusion."
+difficulty = "impossible"
+name = "Ghosted"
+folder_name = "Ghosted"
+files = ["dist/chall.exe", "dist/mingw.txt"]
+
+[challenge.extras]
+finals = true
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{D33Z_NUMB3RS_D0NT_CH4NG3_E1TH3R}"
+case_insensitive = true

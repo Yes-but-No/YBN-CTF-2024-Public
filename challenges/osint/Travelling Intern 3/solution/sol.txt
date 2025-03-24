@@ -1,0 +1,4 @@
+1. Spending abit of time on google search would lead us to the location to be Auckland in New Zealand. 
+2. Checking the metadata, we are able to find out that the intern flew on “2024:10:12 08:54:25”.
+3. Checking for the flight informations from Singapore to Auckland, we are able to find the airline called “Air New Zealand” which provided the aircraft “ANZ283”.
+4. Tracing back to the latest saturday with the flight landing timing of  “08:54”, we get the flag”YBN24{NZ283_B77W}”.

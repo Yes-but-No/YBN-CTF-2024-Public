@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "forensics"
+description = "Read between the lines! (Zoom out for a surprise)"
+difficulty = "medium"
+name = "Yet another forensics challenge"
+folder_name = "Yet another forensics challenge"
+files = ["dist/formatted-code.py", "dist/readme.md"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{Y0u_G0t_T0_l00k_H@rd3r!}"

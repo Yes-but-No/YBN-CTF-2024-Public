@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "reversing"
+description = "So I stumbled along the most peculiar calculator while in Poland... It looks simple enough, but is there more then meets the eye?"
+difficulty = "medium"
+name = "Perl in the rough"
+folder_name = "Perl in the rough"
+files = ["dist/confusing_calculator.pl"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{f0rg3d_thr0ugh_ar4g0nit3_4nd_C0nChi0l1n}"
+
+[[challenge.hints]]
+cost = 0
+content = "Two poles walk into a bar... You would have expected the second one to see it."

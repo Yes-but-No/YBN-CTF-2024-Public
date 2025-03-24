@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "wHo"
+category = "web"
+description = "Hey I came across this website displaying a 3D model of the TARDIS! I wonder what I can find from INSPECTING this site..."
+difficulty = "easy"
+name = "Inspector Who"
+folder_name = "Inspector Who"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{1_l0v3_1n5p3ct_3l3m3nt}"
+
+[[challenge.services]]
+name = "inspector-who"
+path = "service/inspector-who"
+type = "internal"

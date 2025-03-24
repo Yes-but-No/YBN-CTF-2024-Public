@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "Baba was told his challenges were too hard :c. This time, Baba's given you direct access to running the 'cat' command on the console! Surely, this time noone will complain, right?"
+difficulty = "hard"
+name = "a Cat's PATHway"
+folder_name = "a Cats PATHway"
+files = ["dist/website.zip"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{suiD_pRiv1lLEGE_E5c@1atIon_!N_pHp?_lam3}"
+
+[[challenge.services]]
+name = "website"
+path = "service/website"
+type = "internal"

@@ -1,0 +1,2 @@
+1. On the last screen of the video we are able to see a statue and through screenshotting that screen and putting it on google search, we are led to the location called “ruiyan maitreya statue”.
+2. Searching for this place on baidu would give us the flag “YBN24{25.7158,119.4705}”.

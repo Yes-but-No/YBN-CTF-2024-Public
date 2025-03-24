@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "forensics"
+description = "It's in the waves ðŸŽ¼ðŸŽµðŸŽ¶!\n\nEnjoy the music! Please note that flag format is YBN{...} instead of YBN24{...}\n\nCredits:\nPachelbel, J. (1680). Canon in D."
+difficulty = "medium"
+name = "it's in the WAVes"
+folder_name = "its in the WAVes"
+files = ["dist/music.wav"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN{1t5_iN_+h3_W4V35!}"
+case_insensitive = true

@@ -1,0 +1,6 @@
+1. From the image, the title hints at birthday (a date-> calendar) and there is text at the bottom encrypted, after encrypting it leads to a gmail account -> kirbs.ybn24@gmail.com
+2. Using “GHunt” (https://github.com/mxrch/GHunt) we can find that it has a public calendar available.
+3. By adding the calendar and searching through it, we are able to find the event on 5th of August 2022 which has a description of "BQS?8F#ks-A8-*pDfTA@B4ikTD-BD3<b>ER1]"
+4. As hinted by the date, we use ACSII85 and get the link to a discord server.
+5. There is nothing in the channel but if we access members and there's a role called "bot checker".
+6. By writing a Discord bot and make it join the server, the bot checker would grant the "bot" role to the bot and we are able to gain access to the channel "flag" through the bot and therefore get the flag "YBN24{T0P_T13r_D15C0rD_H4CK1N6_5K1115}"

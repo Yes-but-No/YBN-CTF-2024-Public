@@ -1,0 +1,72 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background:#1A1A1A;
+    color:white;
+  }
+  #app {
+    max-width: 800px;
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #aaa;
+    cursor: pointer;
+    user-select: none;
+    color:black;
+  }
+  .empty {
+    background-color: #f0f0f0;
+  }
+  .wall {
+    background-color: #555;
+    color: white;
+  }
+  .endpoint {
+    background-color: #28a745;
+    color: white;
+  }
+  .altitude-input {
+    width: 100%;
+  }
+  .controls {
+    margin-bottom: 20px;
+  }
+  .controls button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .controls button.active {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+
+  #submit{
+    background:#aaa9a97e;
+    color:rgba(255, 255, 255, 0.76);
+    font-size: 1.5rem;
+    font-family: Inter, sans-serif;
+    padding: 0.5em 3em;
+    font-weight:bold;
+    border:none;
+    cursor: pointer;
+  }
+#submit:hover{
+    background:#aaa9aa;
+}

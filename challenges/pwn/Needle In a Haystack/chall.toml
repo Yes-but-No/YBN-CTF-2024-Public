@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "pwn"
+description = "You've heard of needle in a haystack... now find the flag in the stack!"
+difficulty = "easy"
+name = "Needle In a Haystack"
+folder_name = "Needle In a Haystack"
+files = ["dist/main.c"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{FL4G_1N_4_ST4CK_XDDDDDD}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "haystack"
+path = "service/Haystack"
+type = "internal"

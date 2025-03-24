@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "mini"
+category = "forensics"
+description = "This is actually not a text file"
+difficulty = "easy"
+name = "Text but not text"
+folder_name = "Text but not text"
+files = ["dist/flag.txt"]
+
+[challenge.extras]
+finals = false
+tags = "forensics,game"
+
+[[challenge.flags]]
+flag = "YBN24{g0d07_73x7_5c3n3}"
+
+[[challenge.hints]]
+cost = 10
+content = "Search for \"Godot Text Scene\""

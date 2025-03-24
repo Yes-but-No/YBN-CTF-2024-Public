@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "Was this encryption useful?"
+difficulty = "easy"
+name = "ROXROXROX"
+folder_name = "ROXROXROX"
+files = ["dist/output.txt", "dist/ROXROXROX chall.py"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{r3curs1v3_x0rx0rx0r}"

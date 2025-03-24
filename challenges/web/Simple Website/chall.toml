@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "web"
+description = "I made this simple website in less than 20 min, does it look nice? hope I secured my stuff well though, I have something important on disk"
+difficulty = "easy"
+name = "Simple Website"
+folder_name = "Simple Website"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{lfi_vuln3rable}"
+
+[[challenge.services]]
+name = "panel"
+path = "service/panel"
+type = "internal"

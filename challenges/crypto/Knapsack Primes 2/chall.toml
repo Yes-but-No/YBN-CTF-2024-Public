@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "I bet you found an easy way out ;) This time I made sure I do not leak any extra information at all :p Good Luck!"
+difficulty = "impossible"
+name = "Knapsack Primes 2"
+folder_name = "Knapsack Primes 2"
+files = ["dist/chal.py", "dist/output.txt"]
+
+[challenge.extras]
+finals = true
+tags = "SSM"
+
+[[challenge.flags]]
+flag = "YBN24{u_should_have_made_used_of_the_flag_format_before_:/_kn@psacK_prim3s_c0rRupt55}"

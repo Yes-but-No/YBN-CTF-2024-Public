@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "P3RPL3X"
+category = "osint"
+description = "This blue birdy dropped off something which transformed into an X.... not sure what im supposed to do with this, do you?\n\nhttps://bsky.app/profile/yesbutnoiscool.bsky.social"
+difficulty = "hard"
+name = "Blue bird"
+folder_name = "Blue bird"
+files = ["dist/nothingherePLEASEDONOTUPLOADTHIS.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{TwItt3r_X}"
+
+[[challenge.hints]]
+cost = 100
+content = "Maybe try using the first letters......"

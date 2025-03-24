@@ -1,0 +1,4 @@
+1. The id given is a BSSID and by putting it into wigle.net, we are able to locate it in vivo city.
+2. Following the instructions in announcement, open a ticket to verify the location and once its correct, the organisers would add you into a channel where updates are sent.
+3. Looking at the pictures, participants are eventually led to sentosa where they find the roaming organisers.
+4. As such, after answering some questions asked, they obtain the flag "YBN24{P34NU75_F0r_F1ND1NG_U5}".

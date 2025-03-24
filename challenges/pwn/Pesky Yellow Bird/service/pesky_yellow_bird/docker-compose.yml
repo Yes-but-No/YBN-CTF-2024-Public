@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  pesky_yellow_bird:
+    build: .
+    ports:
+      - 8020:8020
+    privileged: true

@@ -1,0 +1,2 @@
+1. “dit” and “dahs” suggest that there is morse code involved somewhere, dit is the sound for “.” and dah is the sound for “-” 
+2. By changing lemon to “.” and lime to “-” and replacing , with / we can use online morse code translators (https://morsecodetranslator.com/) to translate morse to text, getting the flag “YBN24{H0N3Y_13M0N_1iM3_15_YUMMY}”

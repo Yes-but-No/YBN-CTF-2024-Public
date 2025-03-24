@@ -1,0 +1,38 @@
+challenge:
+  author: Lucius Chee Zihan
+  category: Misc
+  description: 'Droid always keeps his keys securely, can you find a way to use them?
+
+
+    Tip: This challenge requires an Android device. If you do not have one, you can
+    use the emulator on Android Studio, or you can use GenyMotion.
+
+    '
+  difficulty: Hard
+  discord: lcz5
+  files:
+  - dist/droid-server-dist.zip
+  - dist/droid_toolbox.apk
+  flags:
+  - flag: GCTF23{AndR01D_Is_S0_Fun!_f9fee49985}
+    regex: false
+  hints:
+  - cost: 100
+    description: Decompile the APK. You can try jadx, or dex2jar+procyon
+    requirements: null
+  - cost: 50
+    description: The flag is encrypted with 2048-bit RSA.
+    requirements: null
+  - cost: 110
+    description: Android's keystore is built to be secure, don't try to extract any keys from a modern device; it probably won't work
+    requirements: null
+  - cost: 200
+    description: Have you thought of the application signature?
+    requirements: null
+  name: Droid's Toolbox
+  requirements: null
+services:
+  droid-toolbox-server:
+    name: droid-toolbox-server
+    path: service/droid-toolbox-server
+    port: '10083'

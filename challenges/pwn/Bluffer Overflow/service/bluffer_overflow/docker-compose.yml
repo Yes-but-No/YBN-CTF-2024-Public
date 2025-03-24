@@ -1,0 +1,7 @@
+version: '2.4'
+services:
+  bluffer_overflow:
+    build: .
+    ports:
+      - 1337:1337
+    privileged: true

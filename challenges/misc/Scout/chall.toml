@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "misc"
+description = "Can you help program the robot to scout the enemy base with the least amount of fuel cost? More instructions in README.txt"
+difficulty = "impossible"
+name = "Scout"
+folder_name = "Scout"
+files = ["dist/map.csv", "dist/README.txt", "dist/source.py"]
+
+[challenge.extras]
+finals = true
+tags = "SSM,algorithms"
+
+[[challenge.flags]]
+flag = "YBN24{1634.3}"

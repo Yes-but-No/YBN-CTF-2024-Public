@@ -1,0 +1,54 @@
+The MT19937 algorithm is a widely used pseudorandom number generator (PRNG) based on the Mersenne Twister algorithm. It uses a Mersenne prime (`M`), specifically `2^19937 - 
+1`, to generate its random numbers.
+The Mersenne Twister algorithm is based on a chosen Mersenne Prime, which is popularly selected as M19937 (2^19937 - 1).
+The general algorithm is characterized by the following quantities:
+
+    w: word size (in number of bits) - we use a 32 bit twister (indicated by MT23209-*32*) so this does not change
+    n: degree of recurrence
+    m: middle word, an offset used in the recurrence relation defining the series x, 1 ≤ m < n  
+    r: separation point of one word, or the number of bits of the lower bitmask, 0 ≤ r ≤ w − 1 
+        in particular, there is these bitmasks used throughout Mersenne Twister for RNG purposes:
+        - upper bitmask: (0xffffffff << r) & 0xFFFFFFFF
+        - lower bitmask: (0xffffffff >> (w-r))
+    a: coefficients of the rational normal form twist matrix
+    b, c: TGFSR(R) tempering bitmasks
+    s, t: TGFSR(R) tempering bit shifts
+    u, d, l: additional Mersenne Twister tempering bit shifts/masks
+
+
+https://en.wikipedia.org/wiki/Mersenne_Twister#Algorithmic_detail
+
+This challenge modifies the Mersenne Prime to 23209.
+Hence the other parameters also must change.
+
+n, w, r and the Mersenne exponent (e.g. 19937, 23209, lets call it p) have a special relationship and must be carefully calulated:
+
+2^(nw-r) - 1 is the Mersenne Prime.
+Hence nw-r = p.
+
+Since p(23209) and w(32) is known, we can thus deduce that:
+n = p // w + 1 (which is 726)
+r = w - (p % w) (which is 23)
+UPPER_MASK = 0xff800000 (calculated)  
+LOWER_MASK = 0x7fffff  (calculated)
+And m = 483 which was selected as well (and revealed).
+
+We can modify online source code for the solving part (I even modified another one for generation):
+
+N = 726  #: 
+M = 483  #:
+#...
+UPPER_MASK = 0xff800000  #:
+LOWER_MASK = 0x7fffff  #:
+
+
+The rest of the vars we leave it as it is.
+
+And then the attack on Mersenne Twister is to get N times output then we can predict future state.
+It's popularly stated this is 624 times; that is precisely for MT19937. But it is a number dictated by "n" that has been used and not fixed across the Mersenne Twisters.
+
+See solve script(s) for the code.
+
+
+Thanks!
+- Lucius

@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "I told my friend to not leak information about my secret passcode, but..."
+difficulty = "easy"
+name = "Hush"
+folder_name = "Hush"
+files = ["dist/chal.py", "dist/output.txt"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{k33p_17_Hu5h_hu5h_w1ll_u?:957930}"

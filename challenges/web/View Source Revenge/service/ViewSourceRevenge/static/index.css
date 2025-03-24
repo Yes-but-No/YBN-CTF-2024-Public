@@ -1,0 +1,13 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    flex-direction:column;
+    gap:1em;
+    
+}
+
+#submit{
+    background:#9cdcfe;
+}

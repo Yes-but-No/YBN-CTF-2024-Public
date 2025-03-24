@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "Our intern sent us this video and we've searched high and low, but to no avail. Could you help us?\nFlag Format: YBN24{latitude_longtitude} (to 4dp)\nPS: You might want to store the flag somewhere first."
+difficulty = "medium"
+name = "Travelling Intern 2"
+folder_name = "Travelling Intern 2"
+files = ["dist/file.mp4"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{25.7158,119.4705}"
+
+[[challenge.hints]]
+cost = 0
+content = "hmmm I wonder if baidu maps would help..."

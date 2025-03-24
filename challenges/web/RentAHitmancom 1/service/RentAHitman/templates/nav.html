@@ -1,0 +1,18 @@
+<nav class="z-40 fixed top-4 right-4 flex justify-between items-center bg-[#ff3705] text-white">
+    <div class="flex justify-between items-center flex-grow ">
+        <ul class="flex gap-10 text-xl px-10">
+            <li class = "hover:brightness-90 hover:backdrop-brightness-90 transition-all duration-200 h-full py-4 px-2">
+                <a href="{{url_for('index')}}">Home</a>
+            </li>
+            <li class = "hover:brightness-90 hover:backdrop-brightness-90 transition-all duration-200 h-full py-4 px-2">
+                <a href="{{url_for('search')}}">Search</a>
+            </li >
+            <li class = "hover:brightness-90 hover:backdrop-brightness-90 transition-all duration-200 h-full py-4 px-2">
+                <a href="{{url_for('login')}}">Login</a>
+            </li>
+            <li class = "hover:brightness-90 hover:backdrop-brightness-90 transition-all duration-200 h-full py-4 px-2">
+                <a href="{{url_for('signup')}}">Signup</a>
+            </li>
+        </ul>
+    </div>
+</nav>

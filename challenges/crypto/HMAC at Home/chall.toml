@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "crypto"
+description = "HMAC is so SLOW. So instead, I made my own! What could possibly go wrong..."
+difficulty = "medium"
+name = "HMAC at Home"
+folder_name = "HMAC at Home"
+files = ["dist/hmac_at_home.py"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{doNt_rE1NVeNT_THE_wheEL_4c1e0ebda9c334d245f8baa7500e2b67}"
+
+[[challenge.services]]
+name = "hmac-at-home"
+path = "service/hmac-at-home"
+type = "internal"

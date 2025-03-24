@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "kyomii"
+category = "reversing"
+description = "The password seems a little long... I wonder if there's a way for me to win without it?"
+difficulty = "medium"
+name = "Yet Another Crackme"
+folder_name = "Yet Another Crackme"
+files = ["dist/chall.exe"]
+
+[challenge.extras]
+finals = true
+
+[[challenge.flags]]
+flag = "YBN24{P4TCH1NG_D33Z_NU75_H33_H33}"
+case_insensitive = true

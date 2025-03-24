@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>View Source</title>
+    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static', filename = 'style.css')}}">
+    <link rel = "stylesheet" type = "text/css" href = "{{url_for('static', filename = 'index.css')}}">
+
+  </head>
+  <body>
+    <h1>View Source (FIXED!)</h1>
+    <h2>Your Number One Website to View Source Code</h2>
+    <form action = "{{url_for('view')}}" method = "GET">
+      <input type = "text" name = "file_name" placeholder = "Enter File Name">
+      <input id = "submit" type = "submit" value = "View Source">
+    </form>
+  </body>
+</html>

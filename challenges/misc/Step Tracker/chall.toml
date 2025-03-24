@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "czlucius"
+category = "misc"
+description = "Whats the shortest path from (0,0) to (40,79) (return number of steps)?\n\nRules: you can descend any elevation you like, but only ascend by 1 each time (e.g. a->b), but each move takes a step regardless of elevation change. Plot is in the text file. \nWrap with YBN24{steps}"
+difficulty = "hard"
+name = "Step Tracker"
+folder_name = "Step Tracker"
+files = ["dist/land.txt"]
+
+[challenge.extras]
+finals = false
+tags = "algorithms"
+
+[[challenge.flags]]
+flag = "YBN24{79}"
+case_insensitive = true
+
+[[challenge.hints]]
+cost = 180
+content = "You can use Breadth First Search (BFS)"

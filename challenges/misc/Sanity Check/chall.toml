@@ -1,0 +1,23 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "JusCodin"
+category = "misc"
+description = "Welcome to YBN CTF 2024!\nTo get started, submit the following flag into the text box below!\n\n`YBN24{w3lC0mE_7o_YbN_ctf}`"
+difficulty = "easy"
+name = "Sanity Check"
+folder_name = "Sanity Check"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{w3lC0mE_7o_YbN_ctf}"
+
+[[challenge.hints]]
+cost = 0
+content = "Copy the flag from the description into the box below! This hint is free, but other hints may not be"

@@ -1,0 +1,24 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Baba is dead"
+category = "web"
+description = "This description has been censored to make this challenge more PG13. There is absolutely nothing suspicious about this website. Just your everyday normal website. Don't mind me.\n"
+difficulty = "easy"
+name = "Don't Look At Me!!!"
+folder_name = "Dont Look At Me"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{I_To1d_y0u_not_T0_Peek!}"
+
+[[challenge.services]]
+name = "dontlookatme"
+path = "service/dontlookatme"
+type = "internal"

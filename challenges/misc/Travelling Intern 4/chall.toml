@@ -1,0 +1,29 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "wHo"
+category = "misc"
+description = "Our intern was forced to slave away and code during her holiday. After juggling between null pointer dereferences and enjoying life, her code finally compiled!\n\nAlas, disaster struck and she lost all her source files and left behind pieces of the compiled binary during her trip! Could you backtrack her route and piece the lost binary back together again?\n\nNOTE: Start from the web portal\n\nANOTHER NOTE: This challenge is only solvable after completing \"travelling intern 1, 2 & 3\""
+difficulty = "medium"
+name = "Travelling Intern 4"
+folder_name = "Travelling Intern 4"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{r0und_7h3_w0rld_1n_36_h0ur5}"
+
+[[challenge.services]]
+name = "pwn-travelling-intern-4"
+path = "service/pwn-travelling-intern-4"
+type = "internal"
+
+[[challenge.services]]
+name = "web-travelling-intern-4"
+path = "service/web-travelling-intern-4"
+type = "internal"

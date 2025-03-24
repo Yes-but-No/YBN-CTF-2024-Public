@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "reversing"
+description = "I created a cool password checker! Check it out!"
+difficulty = "easy"
+name = "super password checker"
+folder_name = "super password checker"
+files = ["dist/super_password_checker"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{FL1ppIng_s74ck_stRinGs_ALl_D4y_3ve4y_dAy}"

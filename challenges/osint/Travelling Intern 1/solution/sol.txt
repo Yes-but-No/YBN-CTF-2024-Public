@@ -1,0 +1,2 @@
+1. Using google search, we are able to find the station named “Amanohashidate”.
+2. Putting it in the flag format would give us “YBN24{amanohashidate_station}”.

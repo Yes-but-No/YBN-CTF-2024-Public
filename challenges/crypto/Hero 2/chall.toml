@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Gr0undUp"
+category = "crypto"
+description = "I have patched the vulnerability, it is safer now right?"
+difficulty = "medium"
+name = "Hero 2"
+folder_name = "Hero 2"
+files = ["dist/Hero 2 chall.py"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{RS4_mu1t!prim3_f4ct0r1ng_bu7_m0r3_:D}"
+
+[[challenge.services]]
+name = "hero-2"
+path = "service/hero-2"
+type = "internal"

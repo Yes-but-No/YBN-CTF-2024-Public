@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "reversing"
+description = "I'm soo boredddddddddddddddddddddddddddddddddd...."
+difficulty = "easy"
+name = "bored xorboard"
+folder_name = "bored xorboard"
+files = ["dist/bored"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{n0th1ng_l1k3_s0m3_x0rs_t0_Ge7_r1d_Of_b0red0m...}"

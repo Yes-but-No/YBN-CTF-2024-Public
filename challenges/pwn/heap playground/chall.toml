@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "duck"
+category = "pwn"
+description = "I'm trying to learn heap! As such, I created a simple playground to play around in... But I bet you cant read the flag!"
+difficulty = "medium"
+name = "heap playground"
+folder_name = "heap playground"
+files = ["dist/dist.zip", "dist/main.c"]
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{UAF_d0es_n0t_M34n_d1sc0unted_pr1ces_n0w}"
+
+[[challenge.services]]
+name = "heap-playground"
+path = "service/heap-playground"
+type = "internal"

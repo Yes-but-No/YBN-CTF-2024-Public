@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "xi"
+category = "osint"
+description = "My friend is the great scientist who invented the time machine. Before he left, he sent me this weird link... I wonder where is he now\nlink: https://pastebin.com/qWAsqnpw"
+difficulty = "easy"
+name = "a long long time ago"
+folder_name = "a long long time ago"
+
+[challenge.extras]
+finals = false
+
+[[challenge.flags]]
+flag = "YBN24{W31C0M3_B4K3_70_7H3_PA57}"
